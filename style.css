@@ -68,24 +68,22 @@ p{
 .country{
   width: 100%;
   max-width: 400px;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
   margin-bottom: 4rem;
-  margin-left: 50px;
   padding: 50px;
   box-shadow: 0px 1px 19px 7px rgba(34, 60, 80, 0.2);
   border-radius: 20px;
   display: none;
 }
 .countrys{
-  width: 600px;
+  max-width: 600px;
   margin-top: 100px;
   background-color: white;
   padding: 20px 20px;
   border-radius: 20px;
-  /* display: none; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .value_error{
